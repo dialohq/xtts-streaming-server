@@ -106,9 +106,9 @@ class StreamingInputs(BaseModel):
     add_wav_header: bool = True
     stream_chunk_size: str = "20"
     top_p:float
-    top_k:float
+    top_k:int
     temperature:float
-    speeed:float
+    speed:float
 
 
 def predict_streaming_generator(parsed_input: dict = Body(...)):
