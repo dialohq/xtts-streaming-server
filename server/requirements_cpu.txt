@@ -1,6 +1,6 @@
 TTS @ git+https://github.com/coqui-ai/TTS@fa28f99f1508b5b5366539b2149963edcb80ba62
 uvicorn[standard]==0.23.2
-fastapi==0.95.2
+fastapi==0.109.1
 pydantic==1.10.13
 python-multipart==0.0.6
 typing-extensions>=4.8.0
